@@ -36,7 +36,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Created by `pipx` on 2025-06-25 13:49:28
 export PATH="$PATH:/home/arjav/.local/bin"
