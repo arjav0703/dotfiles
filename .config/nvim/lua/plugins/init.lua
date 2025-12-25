@@ -18,6 +18,9 @@ return {
   },
 
   {
+    "andweeb/presence.nvim",
+  },
+  {
     "windwp/nvim-ts-autotag",
     opts = {
       filetypes = {

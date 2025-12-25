@@ -1,13 +1,9 @@
-Dot files
-These are config files that i stole from various other ppl like Jakoolit and many more because i am too lazy to config myself. If you want to replicate my system, use the instructions below
-Usage
+**This repo is supposed to used as config by NvChad users!**
 
-    Clone the repo
+- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
+- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
+- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
 
-git clone https://github.com/arjav0703/dots.git
+# Credits
 
-    Copy and paste all the files from this repo to your .config directory
-
-cp ./dots/* ~/.config/ -r
-
-For Nix users: I do not use home-manager to manage my dotfiles. I use flakes just for systemwide configs. Note: My dotfiles are spread accross 2 repositories, this one and lonely-burrow. The reason for this seperation is that this repo contains dotfiles that are "App" specific (for example: neovim) which can be used on any distro. But, the other repo consists my NixOS config which is used for system configurations which means that it can only be used on NixOS.
+1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
